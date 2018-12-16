@@ -21,6 +21,14 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <ImageView
+    	   android:gravity="center"
+    	   android:layout_width="match_parent"
+    	   android:layout_height="100dp"
+    	   android:src="@drawable/ic_viper_logo"
+    	   android:adjustViewBounds="true"
+    	   android:scaleType="centerInside" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
